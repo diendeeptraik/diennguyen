@@ -1,0 +1,55 @@
+/* Reaction by hung1001 */
+.reaction-wrap{margin:10px 0 0px}
+.reaction{display:inline-block;position:relative;margin-left:5px;margin-right:5px}
+.reaction .icon{display:inline-block;position:relative;cursor:pointer;width:40px;height:40px;background:url(//i.imgur.com/xmG5iVw.png) no-repeat;-webkit-background-size:40px 40px;-moz-background-size:40px;-o-background-size:40px;background-size:40px;-webkit-transition:background 0;-o-transition:background 0;-moz-transition:background 0;transition:background 0}
+#fi-like{background-position:0 -480px}
+#fi-love{background-position:0 -520px}
+#fi-thanks{background-position:0 -720px}
+#fi-haha{background-position:0 -560px}
+#fi-wow{background-position:0 -600px}
+#fi-sad{background-position:0 -640px}
+#fi-angry{background-position:0 -680px}
+#fi-plane{background-position:0 -760px}
+#fi-fire{background-position:0 -800px}
+#fi-yay{background-position:0 -840px}
+#fi-ouch{background-position:0 -880px}
+#fi-confuse{background-position:0 -920px}
+.like-button.like #fi-like{background-position:0 0}
+.love-button.love #fi-love{background-position:0 -40px}
+.thanks-button.thanks #fi-thanks{background-position:0 -240px}
+.haha-button.haha #fi-haha{background-position:0 -80px}
+.wow-button.wow #fi-wow{background-position:0 -120px}
+.sad-button.sad #fi-sad{background-position:0 -160px}
+.angry-button.angry #fi-angry{background-position:0 -200px}
+.plane-button.plane #fi-plane{background-position:0 -280px}
+.fire-button.fire #fi-fire{background-position:0 -320px}
+.yay-button.yay #fi-yay{background-position:0 -360px}
+.ouch-button.ouch #fi-ouch{background-position:0 -400px}
+.confuse-button.confuse #fi-confuse{background-position:0 -440px}
+.reaction .icon span{width:30px;height:8px;left:20px;top:18px;background:transparent;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;position:absolute;-webkit-transform:rotate(0);-moz-transform:rotate(0);-ms-transform:rotate(0);-o-transform:rotate(0);transform:rotate(0);-webkit-transform-origin:0 50%;-moz-transform-origin:0 50%;-ms-transform-origin:0 50%;-o-transform-origin:0 50%;transform-origin:0 50%;-webkit-transition:all .1s linear;-o-transition:all .1s linear;-moz-transition:all .1s linear;transition:all .1s linear;overflow:hidden;text-align:right;pointer-events:none}
+.reaction .icon span::before{content:"";position:absolute;top:0;right:10%;display:block;width:50%;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;height:6px;background:rgba(247,40,109,0)}
+.reaction .icon span:nth-of-type(2){-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}
+.reaction .icon span:nth-of-type(3){-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-ms-transform:rotate(90deg);-o-transform:rotate(90deg);transform:rotate(90deg)}
+.reaction .icon span:nth-of-type(4){-webkit-transform:rotate(135deg);-moz-transform:rotate(135deg);-ms-transform:rotate(135deg);-o-transform:rotate(135deg);transform:rotate(135deg)}
+.reaction .icon span:nth-of-type(5){-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg)}
+.reaction .icon span:nth-of-type(6){-webkit-transform:rotate(225deg);-moz-transform:rotate(225deg);-ms-transform:rotate(225deg);-o-transform:rotate(225deg);transform:rotate(225deg)}
+.reaction .icon span:nth-of-type(7){-webkit-transform:rotate(270deg);-moz-transform:rotate(270deg);-ms-transform:rotate(270deg);-o-transform:rotate(270deg);transform:rotate(270deg)}
+.reaction .icon span:nth-of-type(8){-webkit-transform:rotate(315deg);-moz-transform:rotate(315deg);-ms-transform:rotate(315deg);-o-transform:rotate(315deg);transform:rotate(315deg)}
+.angry-button.angry #fi-angry span,.confuse-button.confuse #fi-confuse span,.fire-button.fire #fi-fire span,.haha-button.haha #fi-haha span,.like-button.like #fi-like span,.love-button.love #fi-love span,.ouch-button.ouch #fi-ouch span,.plane-button.plane #fi-plane span,.sad-button.sad #fi-sad span,.thanks-button.thanks #fi-thanks span,.wow-button.wow #fi-wow span,.yay-button.yay #fi-yay span{width:50px}
+.angry-button.angry #fi-angry span::before,.fire-button.fire #fi-fire span::before,.like-button.like #fi-like span::before,.love-button.love #fi-love span::before,.ouch-button.ouch #fi-ouch span::before,.plane-button.plane #fi-plane span::before,.thanks-button.thanks #fi-thanks span::before{width:10%;right:-10%;-webkit-transition:all .4s cubic-bezier(0.085,0.89,0.6,0.115);-o-transition:all .4s cubic-bezier(0.085,0.89,0.6,0.115);-moz-transition:all .4s cubic-bezier(0.085,0.89,0.6,0.115);transition:all .4s cubic-bezier(0.085,0.89,0.6,0.115)}
+.like-button.like #fi-like span::before{background:#548dff}
+.love-button.love #fi-love span::before{background:#f55065}
+.thanks-button.thanks #fi-thanks span::before{background:#966fd3}
+.plane-button.plane #fi-plane span::before{background:#1592fe}
+.fire-button.fire #fi-fire span::before{background:#fc4d18}
+.angry-button.angry #fi-angry span::before,.ouch-button.ouch #fi-ouch span::before{background:#f97c68}
+.confuse-button.confuse #fi-confuse span::before,.haha-button.haha #fi-haha span::before,.sad-button.sad #fi-sad span::before,.wow-button.wow #fi-wow span::before,.yay-button.yay #fi-yay span::before{width:10%;right:-10%;background:#ffda6a;-webkit-transition:all .4s cubic-bezier(0.085,0.89,0.6,0.115);-o-transition:all .4s cubic-bezier(0.085,0.89,0.6,0.115);-moz-transition:all .4s cubic-bezier(0.085,0.89,0.6,0.115);transition:all .4s cubic-bezier(0.085,0.89,0.6,0.115)}
+.reaction .total{font-size:60%;position:absolute;top:-5px;right:-2px;display:inline-block;font-weight:700;-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%;padding:2px 6px;color:#fff;background:#a9a9a9}
+.like-button.like .total{background:#548dff}
+.love-button.love .total{background:#f55065}
+.confuse-button.confuse .total,.haha-button.haha .total,.sad-button.sad .total,.wow-button.wow .total,.yay-button.yay .total{background:#ffda6a}
+.angry-button.angry .total{background:#f97c68}
+.plane-button.plane .total{background:#1592fe}
+.thanks-button.thanks .total{background:#966fd3}
+.fire-button.fire .total{background:#fc4d18}
+.ouch-button.ouch .total{background:#4ba5d9}
