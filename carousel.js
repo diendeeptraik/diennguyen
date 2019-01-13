@@ -1,4 +1,4 @@
-data:text/css;base64,/**
+/**
  * Owl carousel
  * @version 2.0.0
  * @author Bartosz Wojciechowski
